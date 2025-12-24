@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fernando Cezar Garçons</title>
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:#333; }
+    header { background: linear-gradient(135deg, #1f3d3a, #2f5f59); color:#fff; padding:70px 16px; text-align:center; }
+    header h1 { font-size:34px; margin-bottom:10px; }
+    header p { font-size:16px; font-style:italic; }
+    nav { background:#0f2f2c; padding:10px; position:sticky; top:0; text-align:center; }
+    nav a { color:#fff; margin:0 8px; text-decoration:none; font-size:13px; }
+    section { padding:40px 16px; max-width:100%; }
+    h2 { color:#1f6f63; margin-bottom:24px; text-align:center; font-size:22px; }
+    .flex { display:flex; gap:24px; align-items:center; flex-wrap:wrap; }
+    .flex img { width:100%; max-width:320px; border-radius:6px; margin:auto; }
+    ul { line-height:1.8; padding-left:18px; }
+    .cta { background:#1f6f63; color:#fff; text-align:center; padding:32px 16px; }
+    .cta a { display:inline-block; margin-top:12px; background:#fff; color:#1f6f63; padding:14px 22px; text-decoration:none; border-radius:6px; font-weight:bold; }
+    .galeria { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+    .galeria div { text-align:center; font-size:13px; }
+    .galeria img { width:100%; border-radius:6px; }
+    footer { background:#0f2f2c; color:#fff; text-align:center; padding:32px 16px; font-size:14px; }
+    footer p { margin:6px 0; }
+    @media (max-width:480px) {
+      .galeria { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#servico">Serviço de Garçom</a>
+  <a href="#eventos">Eventos</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<header id="inicio">
+  <h1>Fernando Cezar Garçons</h1>
+  <p>“A arte de servir com excelência”</p>
+</header>
+
+<section>
+  <div class="flex">
+    <img src="sua-foto.jpg" alt="Fernando Cezar" />
+    <div>
+      <p><strong>Sou Fernando Cezar</strong>, Maître e líder de equipe de garçons atuando em Caxias do Sul e região.</p>
+      <p>Atuo há anos em eventos sociais e corporativos, sempre priorizando organização, elegância e um atendimento feito com atenção a cada detalhe.</p>
+      <p>Coordeno uma equipe preparada para oferecer um serviço cordial e eficiente do início ao fim do evento.</p>
+      <p><strong>Atendemos:</strong> casamentos, aniversários, jantares empresariais, formaturas e eventos corporativos.</p>
+    </div>
+  </div>
+</section>
+
+<section id="servico">
+  <h2>Nosso serviço de garçom inclui</h2>
+  <div class="flex">
+    <img src="logo.jpg" alt="Logo" />
+    <ul>
+      <li>Uniforme adequado e postura profissional</li>
+      <li>Atendimento aos convidados</li>
+      <li>Serviço de bebidas e alimentos</li>
+      <li>Coquetel volante e jantar</li>
+      <li>Reposição contínua</li>
+      <li>Organização das mesas</li>
+      <li>Apoio ao buffet</li>
+    </ul>
+  </div>
+</section>
+
+<section id="eventos">
+  <h2>Alguns eventos que já atuamos</h2>
+  <div class="galeria">
+    <div><img src="evento1.jpg" /><p>Inauguração Oral Unic</p></div>
+    <div><img src="evento2.jpg" /><p>15 anos – Villa Festa</p></div>
+    <div><img src="evento3.jpg" /><p>Formatura Uff Bier</p></div>
+    <div><img src="evento4.jpg" /><p>Casamento – Recreio da Juventude</p></div>
+  </div>
+  <p style="text-align:center; margin-top:30px;">Confira mais eventos no Instagram <strong>@fernando.garcons</strong></p>
+</section>
+
+<div class="cta">
+  <p>Entre em contato conosco e faça seu orçamento agora mesmo</p>
+  <a href="https://wa.me/5554984321923" target="_blank">WhatsApp</a>
+</div>
+
+<footer id="contato">
+  <p><strong>WhatsApp:</strong> (54) 98432-1923</p>
+  <p><strong>Email:</strong> fernando.garconsoficial@gmail.com</p>
+  <p>@fernando.garcons</p>
+</footer>
+
+</body>
+</html>
